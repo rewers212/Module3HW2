@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Module3HW2
 {
-    public class PhoneContacts
+    public class SortFullName : IComparer<Contact>
     {
-        public void Encrypt(out List<int> key, out List<string> name)
+        public int Compare(Contact x, Contact y)
         {
-            key = new List<int>();
-            name = new List<string>();
+            return x.FullName.CompareTo(y.FullName);
         }
     }
 }

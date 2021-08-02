@@ -7,10 +7,8 @@ namespace Module3HW2
     {
         public static void Main(string[] args)
         {
-            var test = new SortedList<int, string>();
-            test.Add(1, "asda");
-            var test2 = new SortedDictionary<int, string>();
-            test2
+            var startUp = new StartUp();
+            startUp.Run();
         }
     }
 }
