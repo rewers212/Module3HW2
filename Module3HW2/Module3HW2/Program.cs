@@ -1,12 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Module3HW2
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var test = new SortedList<int, string>();
+            test.Add(1, "asda");
+            var test2 = new SortedDictionary<int, string>();
+            test2
         }
     }
 }
